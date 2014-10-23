@@ -4,8 +4,8 @@
 body {
   margin: 0 auto;
   font-family: 'Oswald', sans-serif;
- background-image: url('../images/backgroundtable.jpg');
-
+  background-image: url('../images/backgroundtable.jpg');
+  background-repeat: repeat;
 }
 
 ul li {
