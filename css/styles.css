@@ -1,0 +1,156 @@
+
+
+
+body {
+  margin: 0 auto;
+  font-family: 'Josefin Sans', sans-serif;
+   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  background-image: url('../images/backgroundtable.jpg');
+  background-repeat: repeat;
+}
+
+.container{
+
+}
+ul li {
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+#selector {
+float: center;
+padding-left: 30%;
+}
+
+#winner h1 {
+   float:center;
+  padding-bottom: 5px;
+  padding-left: 18%;
+ 
+}
+
+#winner p {
+  float:center;
+    padding-bottom: 2px;
+    padding-left: 18%;
+ 
+}
+
+#choice{
+  margin-top: 10px;
+  float: center;
+  padding-left: 30%;
+}
+
+#reset {
+  padding: 1px;
+  border: 2px solid #3399FF;
+  margin-bottom: 10px; 
+
+}
+
+#reset:hover{
+  background-color: #3399FF;
+}
+
+#easy{
+  padding: 10px;
+  border: 2px solid white;
+
+}
+
+#easy:hover{
+  background-color: white;
+
+}
+
+#intermediate {
+  padding: 10px;
+  border: 2px solid yellow;
+
+}
+
+#intermediate:hover {
+  background-color: yellow;
+
+}
+
+#difficult {
+  padding: 10px;
+  border: 2px solid #3399FF;
+;
+}
+
+#difficult:hover{
+  background-color: #3399FF;
+;
+} 
+
+#points {
+  padding:5px;
+}
+
+
+.timer {
+
+}
+
+#scoreboard{
+  display: inline;
+  width: 960px;
+  padding:15px;
+}
+
+#left-zone{
+  float: left;
+  margin-left: 20%;
+  margin-right: 15%;
+}
+
+#right-zone{
+  float: right;
+}
+
+#submit{
+  margin-left: 5px;
+  border: red solid 1px;
+  padding: 5px;
+}
+
+#easy-game{
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -15px;
+}
+
+#int-game{
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -15px;
+}
+
+#hard-game{
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -15px;
+}
+
+.cardback {
+  background-image: url('../images/cardbackdelf.png');
+  width: 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+
+.card {
+  width: 100%;
+}
+
+.winners {
+  width: 100%;
+}
+
