@@ -3,11 +3,15 @@
 
 body {
   margin: 0 auto;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   background-image: url('../images/backgroundtable.jpg');
   background-repeat: repeat;
 }
 
+.container{
+
+}
 ul li {
   margin: 0 auto;
   list-style-type: none;
